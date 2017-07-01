@@ -12,5 +12,11 @@ public class Library {
     }
 
     public void printBooksContaining(String partialBookTitle) {
+        for (String book : books)
+        {
+            //Print to printstream only if substring exists in title
+            if (book.contains(partialBookTitle))
+               printStream.println(book);
+        }
     }
 }
