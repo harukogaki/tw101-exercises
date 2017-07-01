@@ -8,6 +8,10 @@ public class Main {
 
         Accumulator accumulator = new Accumulator();
 
+        for (int i = 0; i < 5; i++) {
+            accumulator.increment();
+        }
 
+        System.out.println("# of times increment() has been called: " + accumulator.total());
     }
 }
