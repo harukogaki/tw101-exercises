@@ -15,12 +15,12 @@ public class PrimeFactors {
         List<Integer> primeFactors = generate(num);
 
         //For Debugging Purposes
-        //System.out.println("Number: " + num);
-        //System.out.println("Prime Factors: ");
-        //for (Integer i : primeFactors){
-            //System.out.print(i + " ");
-        //}
-        //System.out.println();
+        System.out.println("Number: " + num);
+        System.out.println("Prime Factors: ");
+        for (Integer i : primeFactors){
+            System.out.print(i + " ");
+        }
+        System.out.println();
     }
 
     private static List<Integer> generate(int n) {
